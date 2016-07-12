@@ -1,1 +1,10 @@
-{{view.message}}
+<h1>Projects</h1>
+<div ng-repeat="project in projects">
+  <h2>{{project.title}}</h2>
+  <img src="{{project.screenshot}}" alt="screenshot of project" width="1000px;">
+  <a href="{{project.url}}">Link to live Project</a>
+  <p>{{project.description}}</p>
+  <ul>
+    <li ng-repeat="tech in project.tech">{{tech}}</li>
+  </ul>
+</div>

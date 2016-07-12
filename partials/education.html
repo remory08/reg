@@ -1,1 +1,7 @@
-{{view.message}}
+<h1>Education</h1>
+<div ng-repeat="ed in education">
+  <h2>{{ed.where}}</h2>
+  <p>{{ed.degree}}</p>
+  <p>{{ed.location}}</p>
+  <p ng-repeat="honor in ed.honors">Honors: <span>{{honor}} </span></p>
+</div>
