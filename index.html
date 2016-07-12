@@ -2,9 +2,35 @@
 <html lang="en" ng-app="my-app">
 <head>
   <meta charset="UTF-8">
-  <title>REG</title>
+  <title>Ryne (Emory) Gross Professional Site</title>
+  <script src="https://use.fontawesome.com/c6b0618fa5.js"></script>
+  <base href="/">
 </head>
 <body>
-yolo
+  <ul>
+    <li><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/remory08" target="_blank">GitHub</a></li>
+    <li><i class="fa fa-linkedin" aria-hidden="true"></i><a href="https://www.linkedin.com/in/remory" target="_blank">LinkedIn</a></li>
+    <li><i class="fa fa-twitter" aria-hidden="true"></i> <a href="https://twitter.com/RyneGross" target="_blank">Twitter</a></li>
+    <li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:ryneemory@gmail.com" target="_blank"> Email</a></li>
+  </ul>
+  <section>
+    <h2>Ryne Emory Gross</h2>
+    <h3>Full Stack Web Developer</h3>
+    <h4>MEAN Stack, API Development, Detail-Oriented Problem Solver</h4>
+  </section>
+  <nav>
+    <a href="/">About</a>
+    <a href="/experience">Experience</a>
+    <a href="/education">Education</a>
+    <a href="/projects">Projects</a>
+    <a href="/skills">Skills</a>
+  </nav>
+  <hr>
+  <div ng-view></div>
+
+<script src="/node_modules/angular/angular.js"></script>
+<script src="/node_modules/angular-route/angular-route.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/controllers.js"></script>
 </body>
 </html>

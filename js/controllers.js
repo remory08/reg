@@ -1,9 +1,4 @@
-app.controller('AboutController', function($scope, $firebaseObject){
-  $scope.about = "about";
-  $scope.resumeRef = firebase.database().ref('resume/about').once('value').then(function(snapshot) {
-    var data = snapshot.exportVal();
-    $scope.about = data;
-  });
+app.controller('AboutController', function($scope){
   $scope.view = {};
   $scope.view.message = "All About Me!"
 });

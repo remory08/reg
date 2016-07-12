@@ -1,6 +1,6 @@
 var app = angular.module("my-app", ['ngRoute']);
 
-app.config(function($routeProvider) {
+app.config(function($routeProvider, $locationProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'partials/about.html',
@@ -22,4 +22,6 @@ app.config(function($routeProvider) {
         templateUrl: 'partials/skills.html',
         controller: 'SkillsController'
       })
+      $locationProvider.html5Mode(true);
+
 });
