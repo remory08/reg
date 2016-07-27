@@ -1,0 +1,122 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif; }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: 'Lato', sans-serif;
+  vertical-align: baseline;
+  line-height: 1.5; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+header {
+  overflow: auto;
+  background-image: url("../public/cheap_diagonal_fabric.png"); }
+
+section {
+  float: left;
+  margin-left: 40px;
+  margin-top: 34px; }
+
+nav.main-nav {
+  width: 100%;
+  background-color: #83a85f;
+  clear: both;
+  overflow: auto; }
+  nav.main-nav a {
+    float: left;
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white; }
+    nav.main-nav a:hover {
+      background-color: #B6CCA1; }
+
+p {
+  color: #30011E; }
+
+h1 {
+  color: #30011E;
+  letter-spacing: 0.2em;
+  font-size: 40px; }
+
+h3 {
+  color: #B68F40;
+  letter-spacing: 0.3em;
+  font-size: 24px;
+  line-height: 3; }
+
+h4 {
+  padding-bottom: 80px;
+  color: #545454; }
+
+ul.social {
+  float: right;
+  margin-right: 20px; }
+  ul.social li {
+    line-height: 2;
+    padding: 10px; }
+    ul.social li a {
+      color: #545454;
+      display: inline-block;
+      text-decoration: none;
+      font-size: 16px; }
+      ul.social li a:hover {
+        color: #B68F40; }
+  ul.social i {
+    width: 10px;
+    height: 10px;
+    color: #545454;
+    margin-right: 10px;
+    font-size: 16px; }
+    ul.social i:hover {
+      color: #B68F40; }
+  ul.social:after {
+    clear: both; }
+
+/*# sourceMappingURL=style.css.map */

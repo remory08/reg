@@ -1,1 +1,8 @@
-{{view.message}}
+<div ng-repeat="exp in experience">
+  <p>{{exp.title}}</p>
+  <p>{{exp.employer}}</p><span>{{exp.employerLocation}}</span>
+  <div><span>{{exp.dateStarted}} - </span><span>{{exp.dateEnded}}</span></div>
+  <ul>
+    <li ng-repeat="responsibility in exp.responsibilities">{{responsibility}}</li>
+  </ul>
+</div>

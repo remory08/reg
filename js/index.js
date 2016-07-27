@@ -11,25 +11,25 @@ app.factory('resumeFactory', function() {
         {
           "employer": "Bluetent",
           "employerLocation": "Carbondale, CO",
-          "Date Started": "October 2015",
-          "Date Ended": "Present",
-          "Responsibilities": [
+          "dateStarted": "October 2015",
+          "dateEnded": "Present",
+          "responsibilities": [
             "Bugs and New Features: Built custom features and wrote code to meet clients’ needs. Resolved bugs and troubleshot issues on enterprise level applications. Utilized advanced Github collaboration methods.",
             "Project Management: Effectively communicated with clients and teammates regarding requirements, scope and timelines.",
             "Sales"
           ],
-          "Title": "Support Engineer"
+          "title": "Support Engineer"
         },
         {
           "employer": "Bike Depot",
           "employerLocation": "Denver, CO",
-          "Date Started": "September 2011",
-          "Date Ended": "April 2015",
-          "Responsibilities": [
+          "dateStarted": "September 2011",
+          "dateEnded": "April 2015",
+          "responsibilities": [
             "IT Management: Coordinated IT Committee, managed skilled volunteers in hardware, software, security, infrastructure and website management projects.",
             "Salesforce Administrator: Developed Salesforce customized platform from basic CRM to a fully interactive and website-integrated utility."
           ],
-          "Title": "Operations Manager"
+          "title": "Operations Manager"
         },
         {
           "employer": "Peace Corps",
@@ -48,7 +48,7 @@ app.factory('resumeFactory', function() {
           "title": "Fair Weather Trails",
           "screenshot": "http://i.imgur.com/0R8pQf3.jpg?1",
           "url": "https://fair-weather-trails.herokuapp.com",
-          "description": "This app allows users to quickly find both trail and weather information in one easy search. ",
+          "description": "This app allows users to quickly find both trail and weather information in one easy search. Users can save trails to their account. When it's time to hit the trail, just log in and see which trail has the best weather forecast. ",
           "tech": [
             "Express",
             "Node.js",
@@ -65,7 +65,8 @@ app.factory('resumeFactory', function() {
         },
         {
           "title": "Ambient Audio",
-          "url": "",
+          "screenshot": "/public/ambient-audio.png",
+          "url": "https://www.youtube.com/watch?v=FrODrl5FeUc&feature=youtu.be",
           "description": "AT&T Hackathon - Winner of best use of AT&T’s M2X Database Ambient audio is an IoT app that collects data from a Tessel light sensor and then selects a song based on the time of day and plays it through Harman speakers.",
           "tech": [
             "Tessel light sensor",

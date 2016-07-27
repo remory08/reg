@@ -1,0 +1,30 @@
+ul.social {
+  float: right;
+  margin-right: 20px;
+  li {
+    line-height: 2;
+    padding: 10px;
+    a {
+      color: $quatro;
+      display: inline-block;
+      text-decoration: none;
+      font-size: 16px;
+      &:hover {
+        color: $tertiary;
+      }
+    }
+  }
+  i {
+    width: 10px;
+    height: 10px;
+    color: $quatro;
+    margin-right: 10px;
+    font-size: 16px;
+    &:hover {
+      color: $tertiary;
+    }
+  }
+  &:after {
+    clear: both;
+  }
+}

@@ -1,16 +1,13 @@
 app.controller('AboutController', function($scope, resumeFactory){
-  $scope.view = {};
-  $scope.view.message = "All About Me!"
+  $scope.abouts = resumeFactory.resume.about;
 });
 
 app.controller('ExperienceController', function($scope, resumeFactory){
-  $scope.view = {};
-  $scope.view.message = "My Experience!"
+  $scope.experience = resumeFactory.resume.experience;
 });
 
 app.controller('SkillsController', function($scope, resumeFactory){
-  $scope.view = {};
-  $scope.view.message = "My Skills!"
+  $scope.skills = resumeFactory.resume.skills;
 });
 
 app.controller('ProjectsController', function($scope, resumeFactory){
