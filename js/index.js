@@ -83,7 +83,7 @@ app.factory('resumeFactory', function() {
         {
           "title": "Gross Wedding",
           "screenshot": "/public/gross_wedding.png",
-          "url": "www.gross-wedding.herokuapp.com",
+          "url": "https://gross-wedding.herokuapp.com/",
           "description": "This was a fun project I worked on while planning my wedding. We used this to collect RSVPs and song requests as well as provide information.",
           "tech": [
             "MongoDB",
