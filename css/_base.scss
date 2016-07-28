@@ -2,15 +2,18 @@
   box-sizing: border-box;
 }
 
-$primary: #B6CCA1; //dark green
-$secondary: #D7FCD4; //lighter green
-$tertiary: #B68F40;  //goldish
-$quatro: #545454;  //grey
-$cinco: #30011E;  //eggplant
+$primary: #FFBC42; //pastel orange
+$secondary: #D81159; //debian red
+$tertiary: #8F2D56;  //dark raspberry
+$quatro: #218380;  //celadon green
+$cinco: #73D2DE;  //middle blue
 
 header {
   overflow: auto;
-  background-image: url('../public/cheap_diagonal_fabric.png');
+  background-color: rgba(84,84,84,0.8);
+  h4 {
+    padding-bottom: 80px;
+  }
 }
 
 section {
@@ -21,7 +24,7 @@ section {
 
 nav.main-nav {
   width: 100%;
-  background-color: darken($primary, 20);
+  background-color: $tertiary;
   clear: both;
   overflow: auto;
   a {
@@ -31,15 +34,15 @@ nav.main-nav {
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    color: white;
+    color: $cinco;
     &:hover {
-      background-color: $primary;
+      background-color: $secondary;
     }
   }
 }
 
 p {
-  color: $cinco;
+  color: $quatro;
 }
 
 h1 {
@@ -49,13 +52,33 @@ h1 {
 }
 
 h3 {
-  color: $tertiary;
+  color: $primary;
   letter-spacing: 0.3em;
   font-size: 24px;
   line-height: 3;
 }
 
 h4 {
-  padding-bottom: 80px;
   color: $quatro;
+}
+
+.guts {
+  height: 100%;
+  min-height: 700px;
+}
+
+.view {
+  margin-left: 10%;
+  width: 80%;
+  padding: 5%;
+  background-color: white;
+  min-height: 700px;
+}
+
+.button.active {
+  background-color: $primary;
+}
+
+body {
+  background-image: url('../public/tree_bark.png');
 }

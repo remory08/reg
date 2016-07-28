@@ -4,8 +4,7 @@ app.factory('resumeFactory', function() {
     return {
     "resume": {
       "about": [
-        "This is the about me section. It will just be a long string that I format. Well,maybe each item of the array is a paragraph and then i will do fancy css ok sounds great.",
-        "another paragraph yo"
+        "Hi! I'm Ryne and I love to code. I'm originally from the Midwest, near Chicago. I currently live in beautiful Colorado where I enjoy exploring the outdoors. I enjoy living through exploration, whether it be new technologies or summiting a fourteener I've never sumitted before.",
       ],
       "experience": [
         {

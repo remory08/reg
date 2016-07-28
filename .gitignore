@@ -4,3 +4,4 @@ superstatic.json
 npm-debug.log
 .DS_Store
 /*.env
+css/.sass-cache/
