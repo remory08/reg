@@ -32,14 +32,14 @@ app.factory('resumeFactory', function() {
         },
         {
           "employer": "Peace Corps",
-          "employerLocation": "Mali (West Africa)",
-          "Date Started": "July 2009",
-          "Date Ended": "May 2011",
-          "Responsibilities": [
+          "employerLocation": "Mali",
+          "dateStarted": "July 2009",
+          "dateEnded": "May 2011",
+          "responsibilities": [
             "Balanced multiple projects by effectively managing time and setting short-term and long-term goals.",
             "Fostered community-driven development through innovation and collaboration."
           ],
-          "Title": "Environment Volunteer"
+          "title": "Environment Volunteer"
         }
       ],
       "projects": [
@@ -73,6 +73,24 @@ app.factory('resumeFactory', function() {
             "Express server",
             "custom graphics",
             "Harman Audio integration",
+            "Node.js",
+            "HTML",
+            "CSS",
+            "Git",
+            "GitHub"
+          ]
+        },
+        {
+          "title": "Gross Wedding",
+          "screenshot": "/public/gross_wedding.png",
+          "url": "www.gross-wedding.herokuapp.com",
+          "description": "This was a fun project I worked on while planning my wedding. We used this to collect RSVPs and song requests as well as provide information.",
+          "tech": [
+            "MongoDB",
+            "JQuery",
+            "Spotify API",
+            "Express",
+            "Sass",
             "Node.js",
             "HTML",
             "CSS",

@@ -1,8 +1,7 @@
 <p><em>Projects hosted on heroku may be slow to wake up.</em></p>
 <br>
 <div class="proj" ng-repeat="project in projects">
-  <a href="{{project.url}}"><h2>{{project.title}}</h2></a>
-  <img   src="{{project.screenshot}}" alt="screenshot of project">
+  <a href="{{project.url}}" target="_blank"><img src="{{project.screenshot}}" alt="screenshot of project"></a>
   <p>{{project.description}}</p>
   <ul>
     <li ng-repeat="tech in project.tech">{{tech}}</li>
