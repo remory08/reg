@@ -60,8 +60,7 @@ header {
 
 section {
   float: left;
-  margin-left: 40px;
-  margin-top: 34px; }
+  width: 100%; }
 
 nav.main-nav {
   width: 100%;
@@ -69,9 +68,8 @@ nav.main-nav {
   clear: both;
   overflow: auto; }
   nav.main-nav a {
-    float: left;
-    display: inline-block;
-    width: 20%;
+    display: block;
+    width: 100%;
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -85,13 +83,16 @@ p {
 h1 {
   color: #73D2DE;
   letter-spacing: 0.2em;
-  font-size: 40px; }
+  font-size: 40px;
+  margin-top: 3%;
+  margin-left: 3%; }
 
 h3 {
   color: #FFBC42;
   letter-spacing: 0.3em;
   font-size: 24px;
-  line-height: 3; }
+  line-height: 1.5;
+  margin-left: 3%; }
 
 h4 {
   color: #218380; }
@@ -113,6 +114,20 @@ h4 {
 body {
   background-image: url("../public/tree_bark.png"); }
 
+@media (min-width: 700px) {
+  h3 {
+    line-height: 3; }
+  h1 {
+    margin-top: 0; }
+  section {
+    margin-left: 40px;
+    margin-top: 34px;
+    width: 50%; }
+  nav.main-nav a {
+    width: 20%;
+    float: left;
+    display: inline-block; } }
+
 .about p {
   color: #218380;
   font-size: 18px;
@@ -120,6 +135,7 @@ body {
 
 .educ p {
   color: black; }
+
 .educ h2 {
   color: #218380; }
 
@@ -136,13 +152,17 @@ body {
 
 ul.social {
   float: right;
-  margin-right: 20px; }
+  width: 100%; }
   ul.social li {
+    background-color: #73D2DE;
     line-height: 2;
-    padding: 10px; }
+    padding: 10px;
+    width: 50%;
+    float: left; }
     ul.social li a {
-      color: #73D2DE;
+      color: #8F2D56;
       display: inline-block;
+      text-align: center;
       text-decoration: none;
       font-size: 16px; }
       ul.social li a:hover {
@@ -150,12 +170,26 @@ ul.social {
   ul.social i {
     width: 10px;
     height: 10px;
-    color: #73D2DE;
-    margin-right: 10px;
+    color: #8F2D56;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 24%;
     font-size: 16px; }
     ul.social i:hover {
       color: #8F2D56; }
   ul.social:after {
     clear: both; }
 
-/*# sourceMappingURL=style.css.map */
+@media (min-width: 700px) {
+  ul.social {
+    width: 20%; }
+  li {
+    background-color: transparent !important;
+    width: auto !important;
+    float: none !important;
+    color: #73D2DE !important; }
+    li i {
+      color: #73D2DE !important;
+      margin-left: 49% !important; }
+    li a {
+      color: #73D2DE !important; } }

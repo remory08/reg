@@ -1,12 +1,16 @@
 ul.social {
   float: right;
-  margin-right: 20px;
+  width: 100%;
   li {
+    background-color: $cinco;
     line-height: 2;
     padding: 10px;
+    width: 50%;
+    float: left;
     a {
-      color: $cinco;
+      color: $tertiary;
       display: inline-block;
+      text-align: center;
       text-decoration: none;
       font-size: 16px;
       &:hover {
@@ -17,8 +21,10 @@ ul.social {
   i {
     width: 10px;
     height: 10px;
-    color: $cinco;
-    margin-right: 10px;
+    color: $tertiary;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 24%;
     font-size: 16px;
     &:hover {
       color: $tertiary;
@@ -26,5 +32,25 @@ ul.social {
   }
   &:after {
     clear: both;
+  }
+}
+
+@media (min-width: 700px) {
+  ul.social {
+    width: 20%;
+  }
+  li {
+    background-color: transparent !important;
+    width: auto !important;
+    float: none !important;
+    color: $cinco !important;
+    i {
+      color: $cinco !important;
+      margin-left: 49% !important;
+    }
+    a {
+      color: $cinco !important;
+
+    }
   }
 }
