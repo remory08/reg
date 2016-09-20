@@ -4,7 +4,7 @@ app.factory('resumeFactory', function() {
     return {
     "resume": {
       "about": [
-        "Hi! I'm Ryne and I love to code. I'm originally from the Midwest, near Chicago. I currently live in beautiful Colorado where I enjoy exploring the outdoors. I enjoy living through exploration, whether it be new technologies or summiting a fourteener I've never sumitted before.",
+        "Hi! I'm Ryne and I love to code. I'm originally from the Midwest, near Chicago. I currently live in beautiful Colorado where I enjoy exploring the outdoors. I thrive by living through exploration, whether it be new technologies or summiting a fourteener I've never sumitted before.",
       ],
       "experience": [
         {
@@ -96,6 +96,36 @@ app.factory('resumeFactory', function() {
             "CSS",
             "Git",
             "GitHub"
+          ]
+        },
+        {
+          "title": "Mean Tea",
+          "screenshot": "/public/meanTea.png",
+          "url": "https://mean-tea.firebaseapp.com/#/",
+          "description": "I built this project learning Angular at Galvanize. We were provided wireframes and parameters of functionality but no instructions or further assistance. This project uses Angular 1 controllers, directives, filters and services. It is a great example of a shopping cart using Angular. The caffeine meter was a stretch goal.",
+          "tech": [
+            "Angular 1",
+            "Node.js",
+            "HTML",
+            "CSS",
+            "Git",
+            "GitHub",
+            "MongoDB"
+          ]
+        },
+        {
+          "title": "Reddit Clone",
+          "screenshot": "/public/redditClone.png",
+          "url": "https://mean-tea.firebaseapp.com/#/",
+          "description": "This was a project I worked on while learning Angular at Galvanize. We were provided wireframes and parameters of functionality but no instructions or further assistance. This project uses Angular 1 controllers, directives, filters and services.",
+          "tech": [
+            "Angular 1",
+            "Node.js",
+            "HTML",
+            "CSS",
+            "Git",
+            "GitHub",
+            "MongoDB"
           ]
         }
       ],
